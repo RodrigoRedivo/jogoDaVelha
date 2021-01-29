@@ -12,8 +12,19 @@ function handleClick(event) {
     let square = event.target;
     let postion = square.id;
 
-    handleMove(postion);
-    updateSquares();
+    if (handleMove(postion)) {
+        
+        setTimeout(() => {
+            alert("O Jogo Acabou ==> o Vencedor foi " + playerTime);
+        }, 10);
+    };
+    updateSquares(postion);
+}
+
+function updateSquares(postion) {
+    let square = document.getElementById(postion.toString());
+    let symbol = board[postion];
+    square.innerHTML = `<div class='${symbol}'></div>`
 }
 
 function updateSquares() {
