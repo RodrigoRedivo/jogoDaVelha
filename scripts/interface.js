@@ -18,6 +18,8 @@ function handleClick(event) {
             alert("O Jogo Acabou ==> o Vencedor foi " + playerTime);
         }, 10);
     };
+
+    
     updateSquares(postion);
 }
 

@@ -50,8 +50,8 @@ h2::before {
 }
 
 .square {
-    width: 280px;
-    height: 280px;
+    width: 300px;
+    height: 250px;
     background-color: #f1faee;
     border: 1px solid #f9f9f9;
     border-radius: 8px;
@@ -94,4 +94,31 @@ h2::before {
     background-size: 270px 270px;
     background-repeat: no-repeat;
     background-image: url(https://i.pinimg.com/originals/ee/ce/b4/eeceb4bd979a5cf044418add179f180b.png);
+}
+
+div button {
+    position: relative;
+    height: 80px;
+    width: 300px;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    background: #a304ff;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.95em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 8px;
+}
+
+div button:hover {
+    transition-delay: 0.5s;
+    color: rgb(0, 255, 221);
+    box-shadow: 0 0 10px #a304ff,
+    0 0 10px #a304ff,
+    0 0 20px #a304ff,
+    0 0 40px #a304ff,
+    0 0 80px #a304ff;
 }
