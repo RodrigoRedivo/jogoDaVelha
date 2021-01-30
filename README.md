@@ -5,7 +5,7 @@
 </h4>
 
 <h4 align="center">
-    <img alt="Jogo da Velha" title="Jogo Da Velha" src="https://raw.githubusercontent.com/RodrigoRedivo/jogoDaVelha/master/assets/jogoDaVelha.gif" width="350px" />
+    <img alt="Jogo da Velha" title="Jogo Da Velha" src="https://raw.githubusercontent.com/RodrigoRedivo/jogoDaVelha/master/assets/jogoDaVelha.gif" width="800px" />
 </h4>
 
 <h3 align="center"> 
