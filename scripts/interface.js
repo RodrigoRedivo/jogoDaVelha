@@ -42,3 +42,9 @@ function updateSquares() {
         }
     })
 }
+
+function reset() {
+
+    location.reload();
+
+}
